@@ -49,6 +49,8 @@ button {
 .page-header {
   padding: 24px 0;
   border-bottom: 1px solid #e7e9fc;
+  box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08),
+    0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
 }
 
 .page-header-container {
@@ -92,25 +94,31 @@ button {
 }
 
 .menu-link {
-  color: var(--navyblue, #2e2f42);
-  /* Body Medium */
+  color: #2e2f42;
   font-size: 16px;
   font-weight: 500;
   line-height: 1.5; /* 150% */
   letter-spacing: 0.02em;
   padding: 24px 0;
+}
+
+.menu-activ {
+  color: #404bbf;
+  position: relative;
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.studio::after {
+.menu-activ::after {
+  content: "";
+  width: 100%;
   display: block;
   position: absolute;
-  width: 48px;
+  left: 0;
+  bottom: -1px;
   height: 4px;
+  background-color: #404bbf;
   border-radius: 2px;
-  background-color: var(--OCEAN, #404bbf);
-  content: " ";
-  margin-top: 21px;
+  margin-top: 24px;
 }
 
 .contacts {
