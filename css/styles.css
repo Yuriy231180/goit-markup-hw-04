@@ -424,8 +424,8 @@ button {
   transition: transform 250ms ease-out;
 }
 
-.section-four-item:hover .overlay,
-.section-four-item:focus .overlay {
+.section-four-wrapper:hover .overlay,
+.section-four-wrapper:focus .overlay {
   transform: translateY(0%);
 }
 
