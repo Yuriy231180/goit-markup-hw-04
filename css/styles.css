@@ -424,22 +424,21 @@ button {
   transition: transform 250ms ease-out;
 }
 
-
-.section-four-list-link:hover .overlay,
-.section-four-list-link:focus .overlay {
+.section-four-item:hover .overlay,
+.section-four-item:focus .overlay {
   transform: translateY(0%);
-  }
+}
 
-  .section-four-item {
-    display: block;
-    transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  }
-  
-  .section-four-item:hover,
-  .section-four-item:focus {
-    box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
-      0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
-  }
+.section-four-item {
+  display: block;
+  transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.section-four-item:hover,
+.section-four-item:focus {
+  box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
+    0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+}
 
 /*Footer styles*/
 
