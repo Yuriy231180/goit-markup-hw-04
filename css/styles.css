@@ -234,6 +234,7 @@ button {
 
 .section-two-icon {
   display: flex;
+  margin-bottom: 8px;
   align-items: center;
   justify-content: center;
   width: 264px;
@@ -246,7 +247,6 @@ button {
 .section-two-item-title {
   color: var(--navyblue, #2e2f42);
   margin-bottom: 8px;
-  margin-top: 8px;
   font-size: 20px;
   font-weight: 500;
   line-height: 1.2; /* 120% */
